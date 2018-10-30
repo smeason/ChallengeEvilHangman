@@ -1,0 +1,25 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.*;
+
+public class Challenge {
+    public static void main (String args[]){
+        Scanner input = new Scanner (System.in);
+        
+        try
+        {
+            FileReader fr = new FileReader("dictionary.txt");
+            BufferedReader br = new BufferedReader(fr);
+            String line;
+            line = br.readLine();
+            
+                
+            System.out.println(line);
+
+        }
+            catch(IOException e){}
+        
+        
+    }
+}
