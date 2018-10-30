@@ -14,7 +14,7 @@ public class Challenge {
             String line;
             line = br.readLine();
             
-                
+           
             System.out.println(line);
 
         }
