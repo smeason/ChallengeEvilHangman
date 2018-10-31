@@ -19,6 +19,12 @@ public class Challenge {
 
         }
             catch(IOException e){}
+            
+        System.out.println("WELCOME TO EVIL HANGMAN!");
+        System.out.println("Enter a the length of the word:");
+        int length = sc.nextInt();
+        
+        
         
         
     }
